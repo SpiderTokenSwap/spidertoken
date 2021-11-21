@@ -1,0 +1,130 @@
+@-webkit-keyframes opacityTO {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes opacityTO {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@-webkit-keyframes opacity-top-to-bottom {
+  from {
+    margin-top: -15px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes opacity-top-to-bottom {
+  from {
+    margin-top: -15px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes opacity-bottom-to-top {
+  from {
+    margin-top: 30px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes opacity-bottom-to-top {
+  from {
+    margin-top: 30px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes opacity-left-to-right {
+  from {
+    margin-left: -80px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@keyframes opacity-left-to-right {
+  from {
+    margin-left: -80px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes opacity-right-to-left {
+  from {
+    margin-right: -80px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@keyframes opacity-right-to-left {
+  from {
+    margin-right: -80px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+.opacityTo {
+  -webkit-animation: opacityTO 2s forwards;
+          animation: opacityTO 2s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.opacity-top-to-bottom {
+  -webkit-animation: opacity-top-to-bottom 1s forwards;
+          animation: opacity-top-to-bottom 1s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.opacity-left-to-right {
+  -webkit-animation: opacity-left-to-right 2s forwards;
+          animation: opacity-left-to-right 2s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.opacity-bottom-to-top {
+  -webkit-animation: opacity-bottom-to-top 2s forwards;
+          animation: opacity-bottom-to-top 2s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.opacity-right-to-left {
+  -webkit-animation: opacity-right-to-left 2s forwards;
+          animation: opacity-right-to-left 2s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
